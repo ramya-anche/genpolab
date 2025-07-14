@@ -1,0 +1,25 @@
+[tool.poetry]
+name = "genpolab"
+version = "0.1.0"
+description = "A machine learning or data science project from the genpolab repository"
+authors = ["Ramya Anche <ramya.anche@example.com>"]
+license = "MIT"
+readme = "README.md"
+repository = "https://github.com/ramya-anche/genpolab"
+
+[tool.poetry.dependencies]
+python = "^3.8"
+numpy = "^1.24.0"
+pandas = "^2.0.0"
+scikit-learn = "^1.3.0"
+matplotlib = "^3.7.0"
+jupyter = "^1.0.0"
+
+[tool.poetry.group.dev.dependencies]
+pytest = "^7.4.0"
+black = "^23.7.0"
+flake8 = "^6.0.0"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
